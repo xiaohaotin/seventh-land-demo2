@@ -46,7 +46,7 @@ a {
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid white;
+  border: 1px solid #ef7651;
 }
 
 .tm-intro {
@@ -88,7 +88,7 @@ a {
   width: 100%;
   max-width: 230px;
   min-height: 160px;
-  color: white;
+  color: black;
   text-align: center;
   margin: 70px auto 90px;
 }
@@ -237,6 +237,14 @@ a {
 
 .tm-section-half {
   padding: 55px;
+}
+
+.tm-section-half2{
+ background-color: #ef7651;
+}
+
+.tm-section-half3{
+  transform: translateX(245px);
 }
 
 .tm-section-icon {
@@ -509,7 +517,31 @@ figure.effect-bubba:hover p {
 }
 
 .form-group {
-  margin-bottom: 40px;
+  display: block;
+	margin: 20px auto;
+	text-align: center;
+	background: none;
+	padding: 12px;
+	font-size: 15px;
+	border-radius: 22px;
+	outline: none;
+	color: #f8f9fa;
+}
+
+.form-group input[type="text"], .login input[type="email"]{
+	border: 2px solid #3498db;
+	width: 220px;
+}
+
+.form-group input[type="text"]:focus, .login input[type="email"]:focus{
+	border-color: #2ecc71;
+	width: 280px;
+	transition: 0.5s;
+}
+
+.form-group input[type="submit"]:hover{
+	background-color: #2ecc71;
+	transition: 0.5s;
 }
 
 .tm-btn-primary {
@@ -673,4 +705,17 @@ figure.effect-bubba:hover p {
   .tm-box-pad {
     padding: 50px 30px;
   }
+}
+
+.login{
+	background-color: #0b132b;
+	color: #f8f9fa;
+	box-shadow: 10px 10px 25px #00000080;
+}
+
+
+
+.login2{
+	background-color: #f8f9fa;
+	box-shadow: 10px 10px 25px #00000080;
 }
