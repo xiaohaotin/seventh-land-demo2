@@ -244,7 +244,7 @@ a {
 }
 
 .tm-section-half3{
-  transform: translateX(245px);
+  transform: translateX(-53px) translateY(-20px);
 }
 
 .tm-section-icon {
@@ -718,4 +718,8 @@ figure.effect-bubba:hover p {
 .login2{
 	background-color: #f8f9fa;
 	box-shadow: 10px 10px 25px #00000080;
+}
+
+.tm-stroke {
+  -webkit-text-stroke: 0.5px #00CC66;
 }
