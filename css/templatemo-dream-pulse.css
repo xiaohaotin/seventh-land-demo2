@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: #ef7651;
+  background-color: #00FFCC;
 }
 
 p {
@@ -46,7 +46,7 @@ a {
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid #ef7651;
+  border: 1px solid #000000;
 }
 
 .tm-intro {
@@ -240,7 +240,7 @@ a {
 }
 
 .tm-section-half2{
- background-color: #ef7651;
+ background-color: white;
 }
 
 .tm-section-half3{
